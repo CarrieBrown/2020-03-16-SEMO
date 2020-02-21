@@ -113,9 +113,16 @@ address.
 </p>
 {% endif %}
 
+{% comment %}
 PARKING
 
-<p>Attendees with a valid parking permit can park in the lot on the corner of Henderson St. and New Madrid St. Guest parking passes available upon request. Please contact workshop organizers for details</p>
+Parking information for attendees
+{% endcomment %}
+<p id="parking">
+  <strong>Parking:</strong>
+Attendees with a valid parking permit can park in the lot on the corner of Henderson St. and New Madrid St. Guest parking passes available upon request. Please contact workshop organizers for details
+</p>
+
 {% comment %}
 DATE
 
